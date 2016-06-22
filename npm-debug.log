@@ -1,0 +1,114 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/jonnyburger/.nvm/versions/node/v5.11.0/bin/node',
+1 verbose cli   '/Users/jonnyburger/.nvm/versions/node/v5.11.0/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.8.6
+3 info using node@v5.11.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/jonnyburger/Desktop/uzh-course-shortname',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/jonnyburger/.npm/@jonny/uzh-course-shortname/1.0.1/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/jonnyburger/.npm correctMkdir not in flight; initializing
+10 info lifecycle @jonny/uzh-course-shortname@1.0.1~prepublish: @jonny/uzh-course-shortname@1.0.1
+11 silly lifecycle @jonny/uzh-course-shortname@1.0.1~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/jonnyburger/.npm/@jonny/uzh-course-shortname/1.0.1/package.tgz',
+12 verbose tar pack   '/Users/jonnyburger/Desktop/uzh-course-shortname' ]
+13 verbose tarball /Users/jonnyburger/.npm/@jonny/uzh-course-shortname/1.0.1/package.tgz
+14 verbose folder /Users/jonnyburger/Desktop/uzh-course-shortname
+15 verbose addLocalTarball adding from inside cache /Users/jonnyburger/.npm/@jonny/uzh-course-shortname/1.0.1/package.tgz
+16 verbose correctMkdir /Users/jonnyburger/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd @jonny/uzh-course-shortname@1.0.1
+18 verbose afterAdd /Users/jonnyburger/.npm/@jonny/uzh-course-shortname/1.0.1/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/jonnyburger/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/jonnyburger/.npm/@jonny/uzh-course-shortname/1.0.1/package/package.json written
+21 silly publish { name: '@jonny/uzh-course-shortname',
+21 silly publish   version: '1.0.1',
+21 silly publish   description: 'Abbreviate course names from UZH',
+21 silly publish   license: 'MIT',
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/jonnyburger/uzh-course-shortname.git' },
+21 silly publish   author:
+21 silly publish    { name: 'Jonny Burger',
+21 silly publish      email: 'jonathanburger11@gmail.com',
+21 silly publish      url: 'jonny.io' },
+21 silly publish   engines: { node: '>=4.0.0' },
+21 silly publish   scripts: { test: 'xo && ava' },
+21 silly publish   files: [ 'index.js' ],
+21 silly publish   keywords: [ 'uzh', 'course', 'abbreviation' ],
+21 silly publish   dependencies: {},
+21 silly publish   devDependencies: { ava: '^0.15.1', xo: '^0.15.0' },
+21 silly publish   readme: '# uzh-course-shortname [![Build Status](https://travis-ci.org/JonnyBurger/uzh-course-shortname.svg?branch=master)](https://travis-ci.org/JonnyBurger/uzh-course-shortname)\n\n> Abbreviate course names from UZH, even complex ones.\n\nThis module tries to remove everything but the most relevant part of a UZH module name.\n\n\nExample:\n`002a Proseminario I di linguistica italiana: Elementi di linguistica sincronica` gets abbreviated to `Elementi di linguistica sincronica`.\n\n\n`BWL III (V+Ü) (Business Administration III)` gets abbreviated to `BWL III`.\n\n\n`LTK Modul 5: Zuchtmanagement Nagetiere` gets abbreviated to `Zuchtmanagement Nagetiere`.\n\nThe idea is that\n\n\n## Install\n\n```\n$ npm install --save @jonny/uzh-course-shortname\n```\n\n\n## Usage\n\n```js\nconst uzhCourseShortname = require(\'uzh-course-shortname\');\n\nuzhCourseShortname(\'159 Aufbaumodul 3 NDL (SU): Poetik und Praxis des Notierens\');\n//=> \'Poetik und Praxis des Notierens\'\n```\n\n\n## API\n\n### uzhCourseShortname(input)\n\n#### input\n\nType: `string`\n\n\n## License\n\nMIT © [Jonny Burger](http://jonny.io)\n',
+21 silly publish   readmeFilename: 'readme.md',
+21 silly publish   gitHead: '67ce1ae98d9dd7d7129a923f9b31f33176334a09',
+21 silly publish   bugs: { url: 'https://github.com/jonnyburger/uzh-course-shortname/issues' },
+21 silly publish   homepage: 'https://github.com/jonnyburger/uzh-course-shortname#readme',
+21 silly publish   _id: '@jonny/uzh-course-shortname@1.0.1',
+21 silly publish   _shasum: 'c94bbd02194e88caf0146fe6fa7353226194f1d2',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name @jonny/uzh-course-shortname
+24 silly mapToRegistry scope (from package name) @jonny
+25 verbose mapToRegistry no registry URL found in name for scope @jonny
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry data Result {
+28 silly mapToRegistry   raw: '@jonny/uzh-course-shortname',
+28 silly mapToRegistry   scope: '@jonny',
+28 silly mapToRegistry   name: '@jonny/uzh-course-shortname',
+28 silly mapToRegistry   rawSpec: '',
+28 silly mapToRegistry   spec: 'latest',
+28 silly mapToRegistry   type: 'tag' }
+29 silly mapToRegistry uri https://registry.npmjs.org/@jonny%2fuzh-course-shortname
+30 verbose publish registryBase https://registry.npmjs.org/
+31 silly publish uploading /Users/jonnyburger/.npm/@jonny/uzh-course-shortname/1.0.1/package.tgz
+32 verbose request uri https://registry.npmjs.org/@jonny%2fuzh-course-shortname
+33 verbose request sending authorization for write operation
+34 info attempt registry request try #1 at 19:37:53
+35 verbose request using bearer token for auth
+36 verbose request id a59a6a2fdb2ef620
+37 http request PUT https://registry.npmjs.org/@jonny%2fuzh-course-shortname
+38 http 403 https://registry.npmjs.org/@jonny%2fuzh-course-shortname
+39 verbose headers { 'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=0',
+39 verbose headers   'content-length': '95',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   date: 'Wed, 22 Jun 2016 17:37:55 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-ams4140-AMS',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1466617074.299845,VS0,VE1424' }
+40 verbose request invalidating /Users/jonnyburger/.npm/registry.npmjs.org/_40jonny_252fuzh-course-shortname on PUT
+41 error publish Failed PUT 403
+42 verbose stack Error: "You cannot publish over the previously published version 1.0.1." : @jonny/uzh-course-shortname
+42 verbose stack     at makeError (/Users/jonnyburger/.nvm/versions/node/v5.11.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+42 verbose stack     at CachingRegistryClient.<anonymous> (/Users/jonnyburger/.nvm/versions/node/v5.11.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+42 verbose stack     at Request._callback (/Users/jonnyburger/.nvm/versions/node/v5.11.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+42 verbose stack     at Request.self.callback (/Users/jonnyburger/.nvm/versions/node/v5.11.0/lib/node_modules/npm/node_modules/request/request.js:199:22)
+42 verbose stack     at emitTwo (events.js:100:13)
+42 verbose stack     at Request.emit (events.js:185:7)
+42 verbose stack     at Request.<anonymous> (/Users/jonnyburger/.nvm/versions/node/v5.11.0/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+42 verbose stack     at emitOne (events.js:95:20)
+42 verbose stack     at Request.emit (events.js:182:7)
+42 verbose stack     at IncomingMessage.<anonymous> (/Users/jonnyburger/.nvm/versions/node/v5.11.0/lib/node_modules/npm/node_modules/request/request.js:963:12)
+43 verbose statusCode 403
+44 verbose pkgid @jonny/uzh-course-shortname
+45 verbose cwd /Users/jonnyburger/Desktop/uzh-course-shortname
+46 error Darwin 15.4.0
+47 error argv "/Users/jonnyburger/.nvm/versions/node/v5.11.0/bin/node" "/Users/jonnyburger/.nvm/versions/node/v5.11.0/bin/npm" "publish"
+48 error node v5.11.0
+49 error npm  v3.8.6
+50 error code E403
+51 error "You cannot publish over the previously published version 1.0.1." : @jonny/uzh-course-shortname
+52 error If you need help, you may report this error at:
+52 error     <https://github.com/npm/npm/issues>
+53 verbose exit [ 1, true ]
