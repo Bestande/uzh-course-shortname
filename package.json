@@ -1,7 +1,7 @@
 {
   "name": "@jonny/uzh-course-shortname",
   "version": "0.0.0",
-  "description": "My kryptonian module",
+  "description": "Abbreviate course names from UZH",
   "license": "MIT",
   "repository": "JonnyBurger/uzh-course-shortname",
   "author": {
