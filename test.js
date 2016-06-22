@@ -129,6 +129,14 @@ var tests = [
 	{
 		input: 'Private Banking: Aktuelle Herausforderungen in der Vermögensverwaltung (S) (Private Banking: Current Challenges in Wealth Management)',
 		output: 'Aktuelle Herausforderungen in der Vermögensverwaltung'
+	},
+	{
+		input: '348 Vorlesung, Unterhaltung durch Medien',
+		output: 'Unterhaltung durch Medien'
+	},
+	{
+		input: '348 Seminar Wahlbereich AVL-AS: Klassiker der Literatur- und Kulturtheorie',
+		output: 'Klassiker der Literatur- und Kulturtheorie'
 	}
 ];
 
