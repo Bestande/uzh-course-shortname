@@ -1,12 +1,20 @@
 # uzh-course-shortname [![Build Status](https://travis-ci.org/JonnyBurger/uzh-course-shortname.svg?branch=master)](https://travis-ci.org/JonnyBurger/uzh-course-shortname)
 
-> My kryptonian module
+> Abbreviate course names from UZH, even complex ones.
+
+This module tries to remove everything but the most relevant part of a UZH module name.
+Example:
+`002a Proseminario I di linguistica italiana: Elementi di linguistica sincronica` gets abbreviated to `Elementi di linguistica sincronica`.
+`BWL III (V+Ü) (Business Administration III)` gets abbreviated to `BWL III`.
+`LTK Modul 5: Zuchtmanagement Nagetiere` gets abbreviated to `Zuchtmanagement Nagetiere`.
+
+The idea is that
 
 
 ## Install
 
 ```
-$ npm install --save uzh-course-shortname
+$ npm install --save @jonny/uzh-course-shortname
 ```
 
 
@@ -15,29 +23,18 @@ $ npm install --save uzh-course-shortname
 ```js
 const uzhCourseShortname = require('uzh-course-shortname');
 
-uzhCourseShortname('unicorns');
-//=> 'unicorns & rainbows'
+uzhCourseShortname('159 Aufbaumodul 3 NDL (SU): Poetik und Praxis des Notierens');
+//=> 'Poetik und Praxis des Notierens'
 ```
 
 
 ## API
 
-### uzhCourseShortname(input, [options])
+### uzhCourseShortname(input)
 
 #### input
 
 Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
 
 
 ## License
