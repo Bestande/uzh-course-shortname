@@ -121,6 +121,14 @@ var tests = [
 	{
 		input: '670 Ergänzungsmodul Sprachwissenschaft: 2 semestriges Seminar: Zwischen Tempus und Genus verbi: Resultativa in den slavischen Sprachen',
 		output: 'Zwischen Tempus und Genus verbi'
+	},
+	{
+		input: 'Banking: Regulation and Supervision (L)',
+		output: 'Regulation and Supervision'
+	},
+	{
+		input: 'Private Banking: Aktuelle Herausforderungen in der Vermögensverwaltung (S) (Private Banking: Current Challenges in Wealth Management)',
+		output: 'Aktuelle Herausforderungen in der Vermögensverwaltung'
 	}
 ];
 

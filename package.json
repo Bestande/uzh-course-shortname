@@ -1,6 +1,6 @@
 {
   "name": "@jonny/uzh-course-shortname",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Abbreviate course names from UZH",
   "license": "MIT",
   "repository": "JonnyBurger/uzh-course-shortname",
