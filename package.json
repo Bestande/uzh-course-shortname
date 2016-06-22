@@ -1,0 +1,31 @@
+{
+  "name": "@jonny/uzh-course-shortname",
+  "version": "0.0.0",
+  "description": "My kryptonian module",
+  "license": "MIT",
+  "repository": "JonnyBurger/uzh-course-shortname",
+  "author": {
+    "name": "Jonny Burger",
+    "email": "jonathanburger11@gmail.com",
+    "url": "jonny.io"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "uzh",
+    "course",
+    "abbreviation"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.15.1",
+    "xo": "^0.15.0"
+  }
+}
