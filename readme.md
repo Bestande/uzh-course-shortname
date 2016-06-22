@@ -3,9 +3,15 @@
 > Abbreviate course names from UZH, even complex ones.
 
 This module tries to remove everything but the most relevant part of a UZH module name.
+
+
 Example:
 `002a Proseminario I di linguistica italiana: Elementi di linguistica sincronica` gets abbreviated to `Elementi di linguistica sincronica`.
+
+
 `BWL III (V+Ü) (Business Administration III)` gets abbreviated to `BWL III`.
+
+
 `LTK Modul 5: Zuchtmanagement Nagetiere` gets abbreviated to `Zuchtmanagement Nagetiere`.
 
 The idea is that
