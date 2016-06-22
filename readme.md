@@ -14,8 +14,6 @@ Example:
 
 `LTK Modul 5: Zuchtmanagement Nagetiere` gets abbreviated to `Zuchtmanagement Nagetiere`.
 
-The idea is that
-
 
 ## Install
 
