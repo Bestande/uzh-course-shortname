@@ -141,6 +141,14 @@ var tests = [
 	{
 		input: 'Nichtlineare Optimierung (V) (Nonlinear Programming (L))',
 		output: 'Nichtlineare Optimierung'
+	},
+	{
+		input: 'Kernkompetenz Politische Philosophie',
+		output: 'Politische Philosophie'
+	},
+	{
+		input: 'Kernkompetenzen Politische Ökonomie: Wichtigste Konzepte der Politischen Ökonomie und ökonomische Grundkonzepte',
+		output: 'Politische Ökonomie'
 	}
 ];
 

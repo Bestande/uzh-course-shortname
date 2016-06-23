@@ -5,6 +5,8 @@ function prepareShortname(name) {
 	name = name.replace(/\(.*\)/g, '');
 	// Remove CL GV / CL AV prefixes
 	name = name.replace(/CL (G|A)V:?/, '');
+	// Remove Kernkompetenzen name
+	name = name.replace(/^Kernkompetenz(en)?/, '');
 	// Remove numbers at start
 	name = name.replace(/^[0-9a-z]{1,5}/, '');
 	// Remove Basismodul prefix. Run twice.
