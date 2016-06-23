@@ -137,6 +137,10 @@ var tests = [
 	{
 		input: '348 Seminar Wahlbereich AVL-AS: Klassiker der Literatur- und Kulturtheorie',
 		output: 'Klassiker der Literatur- und Kulturtheorie'
+	},
+	{
+		input: 'Nichtlineare Optimierung (V) (Nonlinear Programming (L))',
+		output: 'Nichtlineare Optimierung'
 	}
 ];
 

@@ -2,7 +2,7 @@
 
 function prepareShortname(name) {
 	// Remove everything in parenthis
-	name = name.replace(/\(.*?\)/g, '');
+	name = name.replace(/\(.*\)/g, '');
 	// Remove CL GV / CL AV prefixes
 	name = name.replace(/CL (G|A)V:?/, '');
 	// Remove numbers at start
