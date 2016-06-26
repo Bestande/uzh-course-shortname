@@ -25,7 +25,7 @@ $ npm install --save @jonny/uzh-course-shortname
 ## Usage
 
 ```js
-const uzhCourseShortname = require('uzh-course-shortname');
+const uzhCourseShortname = require('@jonny/uzh-course-shortname');
 
 uzhCourseShortname('159 Aufbaumodul 3 NDL (SU): Poetik und Praxis des Notierens');
 //=> 'Poetik und Praxis des Notierens'
