@@ -4,14 +4,14 @@ function prepareShortname(name) {
 	// Remove everything in parenthis
 	name = name.replace(/\(.*\)/g, '');
 	// Remove CL GV / CL AV prefixes
-	name = name.replace(/CL (G|A)V:?/, '');
+	name = name.replace(/CL [(GV|AV|WV)\s\/]+:?/, '');
 	// Remove Kernkompetenzen name
 	name = name.replace(/^Kernkompetenz(en)?/, '');
 	// Remove numbers at start
 	name = name.replace(/^[0-9a-z]{1,5}/, '');
 	// Remove Basismodul prefix. Run twice.
 	for (var i = 0; i < 2; i++) {
-		name = name.replace(/.*?(((Aufbau|Vertiefungs|Sprach|Basis)modul)|Kolloquium|Seminar|Vorlesung|Übung|Prüfung|Modul|Banking).*?(:|\-|–|,)/i, '').trim();
+		name = name.replace(/.*?(((Aufbau|Vertiefungs|Sprach|Basis)modul)|Kolloquium|Seminar|Vorlesung|Übung|Prüfung|Modul|Banking).*?(:|-|–|,|"|')/i, '').trim();
 	}
 	// Remove prefixes like MAT 902 or PHY 101
 	name = name.replace(/[A-Z]{3}\s[0-9]{3}\s?/, '');
@@ -19,6 +19,9 @@ function prepareShortname(name) {
 	name = name.replace(/^[A-Z0-9\s]*:/, '');
 	// Remove prefixes from 'Religionswissenschaften' modules: ERWTh, Eth, SRWse, HisF
 	name = name.replace(/^[A-Z]{1,4}[a-z]{1,2}[A-Z]{0,2}:/, '');
+	// Remove " at the start or end
+	name = name.replace(/"$/, '');
+	name = name.replace(/^"/, '');
 	return name;
 }
 module.exports = function (name) {

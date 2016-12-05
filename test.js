@@ -149,6 +149,14 @@ var tests = [
 	{
 		input: 'Kernkompetenzen Politische Ökonomie: Wichtigste Konzepte der Politischen Ökonomie und ökonomische Grundkonzepte',
 		output: 'Politische Ökonomie'
+	},
+	{
+		input: 'Modul: CL AV / WV: Maschinelle Übersetzung und parallele Korpora',
+		output: 'Maschinelle Übersetzung und parallele Korpora'
+	},
+	{
+		input: 'CL Qualifikationsarbeit ohne Veranstaltung zu Forschungseminar "Eigennamen-Erkennung"',
+		output: 'Eigennamen-Erkennung'
 	}
 ];
 
