@@ -4,7 +4,7 @@ function prepareShortname(name) {
 	// Remove everything in parenthis
 	name = name.replace(/\(.*\)/g, '');
 	// Remove CL GV / CL AV prefixes
-	name = name.replace(/CL [(GV|AV|WV)\s\/]+:?/, '');
+	name = name.replace(/CL\s[GAVW\s\/]+[:\s]/, '');
 	// Remove Kernkompetenzen name
 	name = name.replace(/^Kernkompetenz(en)?/, '');
 	// Remove numbers at start

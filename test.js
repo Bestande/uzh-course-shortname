@@ -157,9 +157,14 @@ var tests = [
 	{
 		input: 'CL Qualifikationsarbeit ohne Veranstaltung zu Forschungseminar "Eigennamen-Erkennung"',
 		output: 'Eigennamen-Erkennung'
+	},
+	{
+		input: 'CL WV Argumentation Mining',
+		output: 'Argumentation Mining'
 	}
 ];
 
 for (let [, _test] of tests.entries()) {
 	test(`"${_test.input}" --> "${_test.output}"`, t => t.is(_test.output, parser(_test.input)));
 }
+
